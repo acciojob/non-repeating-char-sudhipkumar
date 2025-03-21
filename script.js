@@ -1,4 +1,5 @@
 function firstNonRepeatedChar(str) {
+	//Write your code below
     const charCount = {};
 
     // Count occurrences of each character
@@ -16,5 +17,5 @@ function firstNonRepeatedChar(str) {
     return null;
 }
 
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input));
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input));
